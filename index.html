@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./lib/style.css">
+</head>
+<body>
+	<header>
+		<h1>숫자야구 게임</h1>
+	</header>
+	<div class="container">
+		<div class="myAnswer">
+			<p id="nb1" class="num-box"></p>
+			<p id="nb2" class="num-box"></p>
+			<p id="nb3" class="num-box"></p>
+			<p id="nb4" class="num-box"></p>
+		</div>
+		<div class="record">
+			<ul class="record-list"></ul>
+		</div>
+		<div class="num_input">
+			<button class="input-box" onclick="addToInput(0)">0</button>
+			<button class="input-box" onclick="addToInput(1)">1</button>
+			<button class="input-box" onclick="addToInput(2)">2</button>
+			<button class="input-box" onclick="addToInput(3)">3</button>
+			<button class="input-box" onclick="addToInput(4)">4</button>
+			<button class="input-box" onclick="addToInput(5)">5</button>
+			<button class="input-box" onclick="addToInput(6)">6</button>
+			<button class="input-box" onclick="addToInput(7)">7</button>
+			<button class="input-box" onclick="addToInput(8)">8</button>
+			<button class="input-box" onclick="addToInput(9)">9</button>
+		</div>
+		<div class="btn-wrap">
+			<button class="check">확인</button>
+			<button class="reset" onclick="resetInput()">지우기</button>
+		</div>
+	</div>
+	<script src="./lib/app2.js"></script>
+</body>
+</html>
